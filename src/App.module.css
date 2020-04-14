@@ -1,0 +1,51 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    margin: 0% 0% 3% 0%;
+}
+
+/* .cImage {
+    width: 17%;
+    margin-bottom: 4%;
+    margin: 1% 0% 0% 1%;
+} */
+
+.top{
+    display: flex;
+    font-weight: bold;
+    font-size: 255%;
+    font-family: sans-serif;
+    align-self: center;
+}
+
+.wiki{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-family: sans-serif;
+}
+.linked{
+    font-style: italic;;
+    font-size: small;
+    font-family: sans-serif;
+}
+
+@media only screen and (max-width: 958px) {
+    .cImage {
+        align-self: center;
+        width: 30%;
+    }
+}
+
+/* @media only screen and (max-width: 560px) {
+    .cImage {
+        align-self: center;
+        width: 54%;
+    }
+} */
